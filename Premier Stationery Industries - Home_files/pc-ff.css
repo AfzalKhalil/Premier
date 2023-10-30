@@ -1,0 +1,69 @@
+*{
+    font-family: "AntartidaRounded-Light";
+}
+.richtext h3,.richtext h4,.richtext h5,.richtext h6{
+    font-family: "AntartidaRounded-Bold";
+    font-weight: normal;
+}
+.richtext h2,.richtext strong{
+    font-family: "AntartidaRounded-Bold";
+    font-weight: normal;
+}
+.richtext, .richtext *{
+	font-family: "AntartidaRounded-Light";
+}
+
+@font-face{
+       font-family: "AntartidaRounded-Light";
+       src: local("AntartidaRounded-Light"), url("../fonts/AntartidaRounded-Light.otf") format('opentype');
+       font-style:normal;
+       font-weight:normal;
+       font-display: fallback;
+}
+@font-face{
+       font-family: "AntartidaRounded-Bold";
+       src: local("AntartidaRounded-Bold"), url("../fonts/AntartidaRounded-Bold.otf") format('opentype');
+       font-style:normal;
+       font-weight:normal;
+       font-display: fallback;
+}
+
+
+@font-face{
+    font-family: "AntartidaRounded-Black";
+    src: local("AntartidaRounded-Black"), url("../fonts/AntartidaRounded-Black.otf") format('opentype');
+    font-style:normal;
+    font-weight:normal;
+    font-display: fallback;
+}
+@font-face{
+    font-family: "Bebas-regular";
+    src: local("Bebas-regular"), url("../fonts/BEBAS__.woff2") format('woff2');
+    font-style:normal;
+    font-weight:normal;
+    font-display: fallback;
+}
+.regular{
+    font-family: "AntartidaRounded-Light";
+}
+.bold{
+    font-family: "AntartidaRounded-Bold";
+    font-weight: normal;
+}
+.bebas{
+    font-family: "Bebas-regular";
+}
+
+.black{
+    font-family: "AntartidaRounded-Black";
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
